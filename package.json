@@ -1,0 +1,25 @@
+{
+    "name": "portugol",
+    "displayName": "Portugol",
+    "description": "Porugol language support for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "portugol",
+            "aliases": ["Portugol", "portugol"],
+            "extensions": [".por"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "portugol",
+            "scopeName": "source.portugol",
+            "path": "./syntaxes/portugol.tmLanguage.json"
+        }]
+    }
+}
