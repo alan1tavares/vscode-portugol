@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.portugol",
-				"match": "\\b(if|while|for|return)\\b"
+				"match": "\\b(se|entao|para|ate|enquanto|faca|retorne)\\b"
 			}]
 		},
 		"strings": {
