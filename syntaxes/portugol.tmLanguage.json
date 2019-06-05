@@ -7,9 +7,16 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#scope"
+		},
+		{
+			"include": "#numeric-literal"
 		}
 	],
 	"repository": {
+
 		"keywords": {
 			"patterns": [
 				{
@@ -18,7 +25,17 @@
 				},
 				{
 					"name": "storage.type",
-					"match": "\\b(inteiro|real|caractere|logico|cadeia)\\b"
+					"match": "\\b(inteiro|real|caractere|cadeia|logico)\\b"
+				}
+			]
+		},
+
+		"numeric-literal": {
+			"patterns": [
+				{
+					"name": "constant.numeric.portugol",
+					"match": "\\b^[^0|\\D]\\d+(\\.\\d+)?$\\b",
+					"include": "keywords"
 				}
 			]
 		},
