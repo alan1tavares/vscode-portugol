@@ -18,8 +18,13 @@
 				},
 				{
 					"name": "storage.type",
-					"match": "\\b(inteiro|real|caracter|logico)\\b"
-				},
+					"match": "\\b(inteiro|real|caractere|logico|cadeia)\\b"
+				}
+			]
+		},
+
+		"scope": {
+			"patterns": [
 				{
 					"name": "meta.scope",
 					"begin": "inicio",
@@ -28,6 +33,7 @@
 				}
 			]
 		},
+
 		"strings": {
 			"name": "string.quoted.double.portugol",
 			"begin": "\"",
