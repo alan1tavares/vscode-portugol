@@ -11,10 +11,22 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.portugol",
-				"match": "\\b(se|entao|para|ate|enquanto|faca|retorne)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.portugol",
+					"match": "\\b(se|entao|para|ate|enquanto|faca|retorne)\\b"
+				},
+				{
+					"name": "storage.type",
+					"match": "\\b(inteiro|real|caracter|logico)\\b"
+				},
+				{
+					"name": "meta.scope",
+					"begin": "inicio",
+					"end": "fim",
+					"patterns": [{"include": "keywords"}]				
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.portugol",
