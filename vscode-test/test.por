@@ -4,6 +4,10 @@ declare
    pi: real;
    ligado: logico
 
+inicio
+
+fim;
+
 nome <- 'Carlos';
 nome <- "Carlos";
 idade <- 10;

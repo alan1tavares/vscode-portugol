@@ -3,13 +3,13 @@
 	"name": "Portugol",
 	"patterns": [
 		{
+			"include": "#scope"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
 			"include": "#strings"
-		},
-		{
-			"include": "#scope"
 		}
 	],
 	"repository": {
@@ -40,10 +40,8 @@
 		"scope": {
 			"patterns": [
 				{
-					"name": "meta.scope",
-					"begin": "inicio",
-					"end": "fim",
-					"patterns": [{"include": "keywords"}]				
+					"name": "keyword.scope",
+					"match": "\\b(inicio|fim)\\b"
 				}
 			]
 		},
