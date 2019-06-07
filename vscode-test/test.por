@@ -1,5 +1,3 @@
-// Variáveis
-
 declare
    nome: caractere;
    idade: inteiro;
@@ -11,3 +9,5 @@ nome <- "Carlos";
 idade <- 10;
 pi <- 3.14;
 ligado <- verdadeiro;
+
+// Variáveis

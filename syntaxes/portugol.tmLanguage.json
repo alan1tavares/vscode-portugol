@@ -10,9 +10,6 @@
 		},
 		{
 			"include": "#scope"
-		},
-		{
-			"include": "#numeric-literal"
 		}
 	],
 	"repository": {
@@ -25,7 +22,7 @@
 				},
 				{
 					"name": "storage.type",
-					"match": "\\b(inteiro|real|caractere|cadeia|logico)\\b"
+					"match": "\\b(declare|inteiro|real|caractere|cadeia|logico)\\b"
 				}
 			]
 		},
