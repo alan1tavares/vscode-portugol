@@ -61,8 +61,12 @@
 			"end": "",
 			"patterns": [
 				{
-					"name": "keyword.scope",
+					"name": "keyword.scope.geral.portugol",
 					"match": "\\b(inicio|fim)\\b"
+				},
+				{
+					"name": "keyword.scope.algorithm.portugol",
+					"match": "\\b(algoritmo|fim_algoritmo)\\b"
 				}
 			]
 		},

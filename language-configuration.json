@@ -18,7 +18,8 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"],
-        ["inicio", "fim;"]
+        ["inicio", "fim"],
+        ["algoritmo","fim_algoritmo"]
     ],
     // symbols that that can be used to surround a selection
     "surroundingPairs": [

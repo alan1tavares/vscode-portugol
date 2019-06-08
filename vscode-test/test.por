@@ -1,21 +1,13 @@
-< 
--
-
-teste
+algoritmo teste
+   declare
+   //instruções
+fim_algoritmo
 
 declare
    nome: caractere;
    idade: inteiro;
    pi: real;
    ligado: logico
-
-inicio
-
-fim;
-
-<-
-
-or
 
 nome <- 'Carlos';
 nome <- "Carlos";
@@ -24,5 +16,3 @@ pi <- 3.14;
 ligado <- verdadeiro;
 
 // Operadores
-
-
