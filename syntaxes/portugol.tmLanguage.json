@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#operator"
+		},
+		{
+			"include": "#function"
 		}
 	],
 	"repository": {
@@ -70,6 +73,18 @@
 				}
 			]
 		},
+
+		"function": {
+			"begin": "",
+			"end": "",
+			"patterns": [
+				{
+					"name": "support.function.io.portugol",
+					"match": "\\b(leia|escreva)\\b"
+				}
+			]
+		},
+
 		"strings": {
 			"name": "string.quoted.double.portugol",
 			"begin": "\"",

@@ -15,4 +15,8 @@ idade <- 10;
 pi <- 3.14;
 ligado <- verdadeiro;
 
+leia(nome);
+escreva(nome);
+escreva("teste");
+
 // Operadores
