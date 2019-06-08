@@ -19,6 +19,9 @@
 		},
 		{
 			"include": "#function"
+		},
+		{
+			"include": "#comment"
 		}
 	],
 	"repository": {
@@ -85,12 +88,18 @@
 			]
 		},
 
+		"comment": {
+			"name":"comment.line.portugol",
+			"begin": "//|#",
+			"end": "\n"
+		},
+
 		"strings": {
 			"name": "string.quoted.double.portugol",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
-				{
+				{	
 					"name": "constant.character.escape.portugol",
 					"match": "\\\\."
 				}

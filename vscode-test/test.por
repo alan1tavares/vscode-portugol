@@ -18,5 +18,3 @@ ligado <- verdadeiro;
 leia(nome);
 escreva(nome);
 escreva("teste");
-
-// Operadores
