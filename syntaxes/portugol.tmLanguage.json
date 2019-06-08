@@ -10,7 +10,11 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "variable-declaration"
 		}
+
 	],
 	"repository": {
 
@@ -23,8 +27,12 @@
 					"match": "\\b(se|entao|para|ate|enquanto|faca|retorne)\\b"
 				},
 				{
-					"name": "storage.type",
+					"name": "storage.type.portugol",
 					"match": "\\b(declare|inteiro|real|caractere|cadeia|logico)\\b"
+				},
+				{
+					"name": "keyword.operator.assigment.portugol",
+					"match": "<-"
 				}
 			]
 		},
@@ -37,16 +45,6 @@
 					"name": "constant.numeric.portugol",
 					"match": "\\b^[^0|\\D]\\d+(\\.\\d+)?$\\b",
 					"include": "keywords"
-				}
-			]
-		},
-
-		"variable-name": {
-			"begin": "",
-			"end": "",
-			"patterns": [
-				{
-					"name": ""
 				}
 			]
 		},
