@@ -15,13 +15,13 @@
 			"include": "#variable-declaration"
 		},
 		{
-			"include": "#operator"
+			"include": "#comment"
 		},
 		{
 			"include": "#function"
 		},
 		{
-			"include": "#comment"
+			"include": "#operator"
 		}
 	],
 	"repository": {
@@ -58,6 +58,10 @@
 				{
 					"name": "keyword.operator.assigment.portugol",
 					"match": "<-"
+				},
+				{
+					"name": "keyword.operator.arithmetic.portugol",
+					"match": "\\+|-|/|\\*|mod"
 				}
 			]
 		},
@@ -92,6 +96,7 @@
 			"name":"comment.line.portugol",
 			"begin": "//|#",
 			"end": "\n"
+
 		},
 
 		"strings": {

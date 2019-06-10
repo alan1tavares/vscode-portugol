@@ -18,3 +18,13 @@ ligado <- verdadeiro;
 leia(nome);
 escreva(nome);
 escreva("teste");
+
+// Operadores
+
+idade <- 10 + 1;
+idade <- 10 - 1;
+idade <- 10 / 1;
+idade <- 10 * 1;
+idade <- 10++;
+idade <- 10--;
+idade <- 10 mod 2;
