@@ -19,7 +19,7 @@ leia(nome);
 escreva(nome);
 escreva("teste");
 
-// Operadores
+// Operadores aritméticos
 
 idade <- 10 + 1;
 idade <- 10 - 1;
@@ -28,3 +28,13 @@ idade <- 10 * 1;
 idade <- 10++;
 idade <- 10--;
 idade <- 10 mod 2;
+
+// Operadores relacionais
+
+ligado <- verdadeiro = falso;
+ligado <- verdadeiro <> falso;
+ligado <- idade > 10;
+ligado <- idade < 10;
+ligado <- idade <= 10;
+ligado <- idade >= 10;
+

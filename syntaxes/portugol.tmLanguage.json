@@ -62,6 +62,10 @@
 				{
 					"name": "keyword.operator.arithmetic.portugol",
 					"match": "\\+|-|/|\\*|mod"
+				},
+				{
+					"name": "keyword.operator.relational.portugol",
+					"match": "=|<>|<|>|<=|>="
 				}
 			]
 		},
