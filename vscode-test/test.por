@@ -38,3 +38,7 @@ ligado <- idade < 10;
 ligado <- idade <= 10;
 ligado <- idade >= 10;
 
+ligado <- (verdadeiro = falso) e (verdadeiro <> falso);
+ligado <- (verdadeiro = falso) ou (verdadeiro <> falso);
+ligado <- nao(verdadeiro <> falso);
+ligado <- nao((verdadeiro <> falso) ou (verdadeiro <> falso));

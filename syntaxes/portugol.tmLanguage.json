@@ -12,9 +12,6 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#variable-declaration"
-		},
-		{
 			"include": "#comment"
 		},
 		{
@@ -23,6 +20,7 @@
 		{
 			"include": "#operator"
 		}
+		
 	],
 	"repository": {
 		"keywords": {
@@ -66,6 +64,10 @@
 				{
 					"name": "keyword.operator.relational.portugol",
 					"match": "=|<>|<|>|<=|>="
+				},
+				{
+					"name": "keyword.operator.logical.portugol",
+					"match": "\\b(ou|e|nao)\\b"
 				}
 			]
 		},
