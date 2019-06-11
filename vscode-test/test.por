@@ -9,10 +9,12 @@ declare
    pi: real;
    ligado: logico
 
+
+
 nome <- 'Carlos';
 nome <- "Carlos";
 idade <- 10;
-pi <- 3.14;
+pi <- 3,1;
 ligado <- verdadeiro;
 
 leia(nome);

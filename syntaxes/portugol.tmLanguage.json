@@ -19,9 +19,13 @@
 		},
 		{
 			"include": "#operator"
+		},
+		{
+			"include": "#variable"
 		}
 		
 	],
+
 	"repository": {
 		"keywords": {
 			"begin": "",
@@ -37,14 +41,22 @@
 				}
 			]
 		},
-		"variable-tpes": {
+
+		"variable": {
 			"begin": "",
 			"end": "",
 			"patterns": [
 				{
-					"name": "constant.numeric.portugol",
-					"match": "\\b^[^0|\\D]\\d+(\\.\\d+)?$\\b",
-					"include": "keywords"
+					"name": "constant.language.portugol",
+					"match": "\\b(verdadeiro|falso)\\b"
+				},
+				{
+					"name": "constant.numeric.real.portugol",
+					"match": "\\b\\d+(\\,|\\.)[0-9]\\b"
+				},
+				{
+					"name": "constant.numeric.integer.portugol",
+					"match": "\\b\\d+\\b"
 				}
 			]
 		},
@@ -82,7 +94,7 @@
 				},
 				{
 					"name": "keyword.scope.algorithm.portugol",
-					"match": "\\b(algoritmo|fim_algoritmo)\\b"
+					"match": "\\b(algoritmo|fim_algoritmo|fimAlgoritmo)\\b"
 				}
 			]
 		},
