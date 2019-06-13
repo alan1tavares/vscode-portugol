@@ -33,7 +33,11 @@
 			"patterns": [
 				{
 					"name": "keyword.control.portugol",
-					"match": "\\b(se|entao|para|ate|enquanto|faca|retorne)\\b"
+					"match": "\\b(para|ate|enquanto|faca|retorne)\\b"
+				},
+				{
+					"name": "keyword.control.conditional.portugol",
+					"match": "\\b(se|entao|senao)\\b"
 				},
 				{
 					"name": "storage.type.portugol",
@@ -95,6 +99,10 @@
 				{
 					"name": "keyword.scope.algorithm.portugol",
 					"match": "\\b(algoritmo|fim_algoritmo|fimAlgoritmo)\\b"
+				},
+				{
+					"name": "keyword.scope.conditional.portugol",
+					"match": "\\b(fim_se|fimSe|fim_senao|fimSenao)\\b"
 				}
 			]
 		},

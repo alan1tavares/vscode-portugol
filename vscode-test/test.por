@@ -44,3 +44,31 @@ ligado <- (verdadeiro = falso) e (verdadeiro <> falso);
 ligado <- (verdadeiro = falso) ou (verdadeiro <> falso);
 ligado <- nao(verdadeiro <> falso);
 ligado <- nao((verdadeiro <> falso) ou (verdadeiro <> falso));
+
+se ligado entao
+   //Comandos
+
+se ligado entao
+inicio
+   //Comandos
+   //Comandos
+   //Comandos
+fim
+
+se ligado entao
+   //Comandos
+senao
+   //Comandos
+
+se ligado entao
+inicio
+   //Comandos
+   //Comandos
+   //Comandos
+fim
+senao
+inicio
+   //Comandos
+   //Comandos
+   //Comandos
+fim
