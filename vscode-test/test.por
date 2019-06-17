@@ -45,30 +45,66 @@ ligado <- (verdadeiro = falso) ou (verdadeiro <> falso);
 ligado <- nao(verdadeiro <> falso);
 ligado <- nao((verdadeiro <> falso) ou (verdadeiro <> falso));
 
+//Condicional Simples
 se ligado entao
-   //Comandos
+   // Comandos
 
 se ligado entao
 inicio
-   //Comandos
-   //Comandos
-   //Comandos
+   // Comandos
+   // Comandos
+   // Comandos
 fim
 
+// Condicioanl Composta
 se ligado entao
-   //Comandos
+   // Comandos
 senao
-   //Comandos
+   // Comandos
 
 se ligado entao
 inicio
-   //Comandos
-   //Comandos
-   //Comandos
+   // Comandos
+   // Comandos
+   // Comandos
 fim
 senao
 inicio
-   //Comandos
-   //Comandos
-   //Comandos
+   // Comandos
+   // Comandos
+   // Comandos
 fim
+
+// Repetição
+para indice <- valor_inicial ate valor_final faca [passo n]
+   // comando
+
+para indice <- valor_inicial ate valor_final faca [passo n]
+inicio
+   // comando_1
+   // comando_2
+   // ...
+   // comando_m
+fim
+
+enquanto ligado faca
+   // comando
+
+enquanto ligado faca
+inicio
+   // comando_1
+   // comando_2
+   // ...
+   // comando_m
+fim
+
+repita
+   // comando
+ate ligado
+
+repita
+   // comando_1
+   // comando_2
+   // ...
+   // comando_m
+ate ligado

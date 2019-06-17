@@ -28,16 +28,18 @@
 
 	"repository": {
 		"keywords": {
-			"begin": "",
-			"end": "",
 			"patterns": [
 				{
 					"name": "keyword.control.portugol",
-					"match": "\\b(para|ate|enquanto|faca|retorne)\\b"
+					"match": "\\bretorne\\b"
 				},
 				{
 					"name": "keyword.control.conditional.portugol",
 					"match": "\\b(se|entao|senao)\\b"
+				},
+				{
+					"name": "keyword.control.loop.portugol",
+					"match": "\\b(para|ate|faca|passo|enquanto|repita)\\b"
 				},
 				{
 					"name": "storage.type.portugol",
@@ -47,8 +49,6 @@
 		},
 
 		"variable": {
-			"begin": "",
-			"end": "",
 			"patterns": [
 				{
 					"name": "constant.language.portugol",
@@ -66,8 +66,6 @@
 		},
 
 		"operator": {
-			"begin": "",
-			"end": "",
 			"patterns": [
 				{
 					"name": "keyword.operator.assigment.portugol",
@@ -89,8 +87,6 @@
 		},
 
 		"scope": {
-			"begin": "",
-			"end": "",
 			"patterns": [
 				{
 					"name": "keyword.scope.geral.portugol",
@@ -103,13 +99,15 @@
 				{
 					"name": "keyword.scope.conditional.portugol",
 					"match": "\\b(fim_se|fimSe|fim_senao|fimSenao)\\b"
+				},
+				{
+					"name": "keyword.scope.loop.portugol",
+					"match": "\\b(fim_para|fimPara|fim_enquanto|fimEnquanto)\\b"
 				}
 			]
 		},
 
 		"function": {
-			"begin": "",
-			"end": "",
 			"patterns": [
 				{
 					"name": "support.function.io.portugol",
