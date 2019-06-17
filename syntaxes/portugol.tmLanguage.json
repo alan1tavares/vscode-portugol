@@ -112,6 +112,16 @@
 				{
 					"name": "support.function.io.portugol",
 					"match": "\\b(leia|escreva)\\b"
+				},
+				{
+					"begin": "\\.",
+					"end": "\\(",
+					"patterns": [
+						{
+							"name": "entity.name.function.portugol",
+							"match": "\\w"
+						}
+					]
 				}
 			]
 		},

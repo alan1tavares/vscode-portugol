@@ -108,3 +108,15 @@ repita
    // ...
    // comando_m
 ate ligado
+
+// Funcao
+
+objeto.minhaFuncao();
+
+1objeto.minhaFuncao();
+_objeto.minhaFuncao();
+ob1jeto.minha1Funcao();
+
+objeto.1minhaFuncao();
+objeto._minhaFuncao();
+objeto.minha1Funcao();
